@@ -11,7 +11,13 @@
     </properties>
     
     <dependencies>
-        <!-- Add dependencies if required -->
+        <!-- Servlet API Dependency -->
+        <dependency>
+            <groupId>jakarta.servlet</groupId>
+            <artifactId>jakarta.servlet-api</artifactId>
+            <version>5.0.0</version> <!-- Use the appropriate version -->
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
     
     <build>
